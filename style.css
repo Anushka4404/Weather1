@@ -4,21 +4,21 @@
     box-sizing: border-box;
 }
 body{
-    background: url(image/background.png);
+    background: url(image/weatherbl.jpg);
     background-size: cover;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .card{
    width: 100%;
    max-width: 500px;
-   background-image: linear-gradient(rgba(136, 139, 153, 0.1),rgba(236, 230, 230, 0.1)),url(image/Screenshot\ \(689\).png);
-   /* background-color: rgb(192, 143, 192); */
-   color: #fff;
+   background-color: gold;
+    color: rgb(10, 9, 9);
    margin: 100px auto 0;
-   border-radius: 20px;
+   border-radius: 30%;
    padding: 40px 35px;
    text-align: center;
    background-size: cover;
@@ -89,8 +89,8 @@ button img{
 }
 .details{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    /* align-items: center; */
+    justify-content: space-around;
     padding: 0 20px;
     margin-top: 50px;
 }
